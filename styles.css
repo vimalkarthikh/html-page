@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 242, 242);
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: royalblue;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: royalblue;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 1cm;
+}
+
+button:hover {
+    background-color: rgb(104, 135, 228);
+    color: white;
+}
+
+.content-one {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    height: 12cm;
+    margin-top: 5cm;
+}
+
+#home1 {
+    
+    width: 50%;
+    padding: 20px;
+}
+
+.contentone-box {
+    width: 50%;
+    padding: 20px;
+    height: 4cm;
+    margin: 20px; /* Space outside the border */
+}
+
+.content-one img{
+    width: 525px;
+    padding: auto;
+    margin: auto;
+}
+
+.container-two {
+   
+    padding: 2cm;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.element {
+    padding: 20px;
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.element img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.element h4 {
+    margin-top: 0;
+}
+
+.element p {
+    margin-bottom: 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.contentthree-box{
+    padding: 20px;
+    border-radius: .25cm;
+}
+
+.row-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-one-four{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 11cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+}
+
+.mini-element {
+    width: 6cm; /* Adjust as per your requirement */
+   height: 4cm;
+    margin-top: 10px ;
+}
+
+.mini-element h4 {
+    margin-top: 0;
+}
+
+.mini-element p {
+    margin-bottom: 0;
+}
+
+.c-five{
+    text-align: center;
+    margin-bottom: 3cm;
+}
+
+.c-five h1{
+    color: royalblue;
+}
+
+.foot-copy{
+    background-color: rgb(39, 39, 77);
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    padding: .4cm;
+    color: white;
+}
+
+.windowimg{
+    width: 600px;
+    padding: auto;
+    margin: auto;
+}
+
+.head-p{
+    font-weight: bold;
+    color: royalblue;
+}
+.head-p:hover{
+color: rgb(114, 140, 216);
+}
+
+#app-home1 {
+   
+    max-width: 16cm;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+    
+}
+
+.learn-more{
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+    cursor: pointer;
+    height: 1cm;
+}
